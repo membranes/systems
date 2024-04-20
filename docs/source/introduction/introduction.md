@@ -29,11 +29,13 @@ The aim of these pages is to ensure that each prospective client/collaborator ca
 A project's details are especially critical to conducting a well-informed technical feasibility & economic 
 viability assessment before proceeding.  It is also important to beware that the data science aspect of the project is only a part of the project, ignoring this leads to [project failures](https://www.kdnuggets.com/survey-machine-learning-projects-still-routinely-fail-to-deploy) due to, e.g.,
 
-* Under-planning.
-* Ambiguous project scope/design details. 
-* Project pilots that are neither informed by **nor** tests the deployment goal.
-* Underestimating, or ignoring, cost.
-* Ignoring the critical importance of intensive collaboration between the business, data science, operations, etc., teams.
+<ul>
+    <li>Under-planning.</li>
+    <li>Ambiguous project scope/design details.</li>
+    <li>Project pilots that are neither informed by **nor** tests the deployment goal.</li>
+    <li>Underestimating, or ignoring, cost.</li>
+    <li>Ignoring the critical importance of intensive collaboration between the business, data science, operations, etc., teams.</li>
+</ul>
 
 <br>
 <br>
