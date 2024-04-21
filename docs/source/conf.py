@@ -89,8 +89,7 @@ html_css_files: list[str] = [
     'css/generic.css',
     'css/figures.css',
     'https://fonts.googleapis.com/css?family=Vollkorn',
-    'https://fonts.googleapis.com/css?family=Tangerine',
-    'https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css'
+    'https://fonts.googleapis.com/css?family=Tangerine'
 ]
 
 html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
@@ -100,8 +99,7 @@ html_js_files: list[str] = ['https://code.jquery.com/jquery-3.7.0.min.js',
                             'https://code.highcharts.com/stock/modules/export-data.js',
                             'https://code.highcharts.com/stock/modules/accessibility.js',
                             'https://code.highcharts.com/highcharts.js',
-                            'https://code.highcharts.com/modules/networkgraph.js',
-                            'https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js'
+                            'https://code.highcharts.com/modules/networkgraph.js'
                             ]
 
 html_theme_options = {
