@@ -36,7 +36,7 @@ How many instances does the data set have?
 
 Are any aspects of the data set pre-processed?  If yes:
 
-<ul  class="disc">
+<ul class="disc">
     <li class="disc">Document the pre-processing steps.</li>
     <li class="disc">State whether the underlying raw data is available, and provide a link to the data.</li>
     <li class="disc">If available, provide a link to the pre-processing programs.</li>
@@ -49,9 +49,10 @@ Are any aspects of the data set pre-processed?  If yes:
 
 **If yes:**
 
-* **If the data set is representative** of the larger data set: How was representativeness verified/validated?
-* **If the data set is not representative** of the larger data set, e.g., is a geographically focused subset, explain why.
-
+<ul class="disc">
+    <li class="disc"><b>If the data set is representative</b> of the larger data set: How was representativeness verified/validated?</li>
+    <li class="disc"><b>If the data set is not representative</b> of the larger data set, e.g., is a geographically focused subset, explain why.</li>
+</ul>
 
 <br>
 <br>
