@@ -15,7 +15,8 @@ These are the standard technical metrics.  **Referring back to the retinal image
 
 <br>
 
-<dl><div style="margin-bottom: 15px"><b>EXAMPLE.</b>  Based on the <b>(a)</b> error matrix measures, i.e., True Positive, False Negative, False Positive, True Negative, and <b>(b)</b> a threshold defined as the intersection of precision & sensitivity, the expected criteria are: </div>
+<dl><b>EXAMPLE</b><br><div style="margin-bottom: 15px; margin-top: 10px;">Based on the <b>(a)</b> error matrix measures, i.
+e., True Positive, False Negative, False Positive, True Negative, and <b>(b)</b> a threshold defined as the intersection of precision & sensitivity, the expected criteria are: </div>
     <dt>Overarching Criteria</dt>
     <dd>Precision > 0.9, Sensitivity (True Positive Rate) > 0.9, Specificity (True Negative Rate) > 0.9, Youden's J Statistic > 0.9, and False Positive Rate < 0.1. </dd>
     <dt>Disaggregated Criteria</dt>
