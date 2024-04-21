@@ -8,6 +8,7 @@ In general, the questions herein should be studied before data collection.  The 
   "… are intended to provide dataset consumers with the information they need to make informed decisions about using the dataset for their chosen tasks. … the questions are designed to elicit information about compliance with the EU's General Data Protection Regulation (GDPR) or comparable regulations in other jurisdictions."
 </blockquote>
 
+<br>
 
 <details><summary><b>References</b></summary>
 <ol class="numeric">
@@ -57,29 +58,28 @@ Are any aspects of the data set pre-processed?  If yes:
 <br>
 <br>
 
-
 ## Lineage
 
 Summarise the data set's lineage, including linkage options. [1, 2]
 
+<br>
+
 <details><summary><b>References</b></summary> 
-<ol><li><a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a></li>
-<li><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li></ol>
+<ol class="numeric">
+    <li class="numeric"><a href="https://www.qlik.com/us/data-management/data-lineage" target="_blank">QLIK: What is data lineage?</a></li>
+    <li class="numeric"><a href="https://www.ibm.com/topics/data-lineage" target="_blank">IBM: What is data lineage?</a></li>
+</ol>
 </details>
 
-
 <br>
 <br>
-
 
 ## Licences & Fees
 
 If applicable, summarise the data's costs.
 
-
 <br>
 <br>
-
 
 ## Profiles of Instances
 
@@ -87,31 +87,36 @@ Herein, the focus is a summary of the instances of a data set, e.g., for a tabul
 
 **By Field**
 
-* The field name
-* Description: What does the element of an instance denote/represent?
-* Data Type
-* Dictionary of a categorical data type
-* Unit of Measure
-* Is this a raw data field or a feature?
-* Is this a target field?
-* Does the field identify a sub-population?
-* Column Profile: Note column profiling "… provides statistical information regarding the distribution of data values and associated patterns that are assigned to each data attribute, …".  Including "… range analysis, sparseness, format and pattern evaluation, cardinality and uniqueness analysis, value absence, abstract type recognition, and attribute overloading analysis".[1]  If a field/column has missing elements, explain why.
-* A graph of the field's data distribution.
-
-
-**Across Fields**
-
-* Cross-Column Profiles: Relationships between columns.
+<ul class="disc">
+    <li class="disc">The field name.</li>
+    <li class="disc">Description: What does the element of an instance denote/represent?</li>
+    <li class="disc">Data type.</li>
+    <li class="disc">Dictionary of a categorical data type.</li>
+    <li class="disc">Unit of measure.</li>
+    <li class="disc">Is this a raw data field or a feature?</li>
+    <li class="disc">Is this a target field?</li>
+    <li class="disc">Does the field identify a sub-population?</li>
+    <li class="disc">Column Profile: Note column profiling <i>"… provides statistical information regarding the distribution of data values and associated patterns that are assigned to each data attribute, …"</i>. [1] &nbsp; &nbsp; If a field/column has missing elements, explain why.</li>
+    <li class="disc">A graph of the field's data distribution.</li>
+</ul>
 
 <br>
 
+**Across Fields**
+
+<ul class="disc">
+    <li class="disc">Cross-Column Profiles: Relationships between columns.</li>
+</ul>
+
+<br>
+<br>
+
 <details><summary><b>References</b></summary>
-<ol><li>5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 
-2008</li>
-<li><a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">Data Profiling</a></li>
+<ol class="numeric">
+    <li class="numeric">5.5.2 Profiling for Data Quality Assessment, in <a href="https://www.sciencedirect.com/book/9780123742254/master-data-management" target="_blank">Master Data Management</a>, Page 96, The MK/OMG Press, 2008</li>
+    <li class="numeric"><a href="https://www.talend.com/resources/what-is-data-profiling/" target="_blank">Data Profiling</a></li>
 </ol>
 </details>
-
 
 <br>
 <br>
