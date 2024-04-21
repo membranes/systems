@@ -17,7 +17,8 @@ flowchart LR
     classDef default fill:#333333,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
 ```
 
-> An illustration of considerations vis-à-vis a potential business machine learning project.  The project details inform the feasibility assessment.
+<figcaption>An illustration of considerations vis-à-vis a potential business machine learning project.  The project details inform the feasibility assessment.</figcaption>
+
 
 <br>
 <br>
