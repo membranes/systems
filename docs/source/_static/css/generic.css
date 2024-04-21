@@ -1,21 +1,15 @@
 /* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
 
-li {
-    margin-top:1px;
-    margin-bottom:1px;
-    padding-top: 1px;
-    padding-bottom:1px;
+li.disc {
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-top: 2px;
+    padding-bottom:2px;
+    list-style: disc;
+    line-height: 1.6em
 }
 
 ul {
-    font-size: 14.5px;
-    list-style-type: disc;
+    margin-left: 35px;
 }
 
-ul.special {
-    margin-top:0px;
-    margin-bottom:1px;
-    padding-top: 0px;
-    padding-bottom:1px;
-    margin-left: 15px;
-}
