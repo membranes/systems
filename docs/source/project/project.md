@@ -21,7 +21,7 @@ What are the potential product's outcome expectations, e.g.,
 The underlying aim might be, e.g.,
 
 <blockquote>
-    To reduce the mis-classification rate of retinal images of diabetic patients to $\le$ 1.25% per class per quarter.
+    To reduce the mis-classification rate of retinal images of diabetic patients to ≤ 1.25% per class per quarter.
 </blockquote>
 
 <br>
