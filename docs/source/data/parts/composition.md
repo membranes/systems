@@ -143,9 +143,11 @@ Are there recommended data splits?
 ## Confidentiality
 
 Does the data set contain data that might be considered confidential?  For example,
-* Is the data protected by legal privilege or by doctor–patient confidentiality?
-* Does the data include the content of private/non-public communications of individuals.
 
+<ul>
+    <li class="disc">Is the data protected by legal privilege or by doctor–patient confidentiality?</li>
+    <li class="disc">Does the data include the content of private/non-public communications of individuals.</li>
+</ul>
 
 <br>
 <br>
