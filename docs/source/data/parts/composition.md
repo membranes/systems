@@ -2,8 +2,6 @@
 
 # Composition
 
-<br>
-
 In general, the questions herein should be studied before data collection.  The datasheets paper [1] notes that most of the questions:
 
 <blockquote>
@@ -12,8 +10,8 @@ In general, the questions herein should be studied before data collection.  The 
 
 
 <details><summary><b>References</b></summary>
-<ol>
-<li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
+<ol class="numeric">
+    <li class="numeric"><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
 </ol>
 </details>
 
@@ -38,9 +36,11 @@ How many instances does the data set have?
 
 Are any aspects of the data set pre-processed?  If yes:
 
-* Document the pre-processing steps.
-* State whether the underlying raw data is available, and provide a link to the data.
-* If available, provide a link to the pre-processing programs.
+<ul  class="disc">
+    <li class="disc">Document the pre-processing steps.</li>
+    <li class="disc">State whether the underlying raw data is available, and provide a link to the data.</li>
+    <li class="disc">If available, provide a link to the pre-processing programs.</li>
+</ul>
 
 <br>
 <br>
