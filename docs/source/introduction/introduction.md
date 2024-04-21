@@ -17,6 +17,8 @@ successful deployments of machine learning solutions within
     <li class="disc">Policy teams, vis-à-vis providing evidence/insights based on the automatic and continuous executions of simple and complex models.</li>
 </ul>
 
+<br>
+
 These pages are not as comprehensive as the hub.  The objective: share a few help notes with colleagues whilst we await 
 the hub's first release.  However, because these pages might be a helpful reference point, we will continuously update its content.
 
@@ -42,7 +44,6 @@ viability assessment before proceeding.  It is also important to beware that the
 teams.</li>
 </ul>
 
-<br>
 <br>
 
 One of the first sections of these pages is **Deployment Goal**.  Colleagues may question why.  Here are a few references that 
