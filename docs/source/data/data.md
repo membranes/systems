@@ -19,6 +19,7 @@ This chapter consists of a set of sections.  The sections, except the Natural La
 
 ```{toctree}
 :caption: Content
+:maxdepth: 3
 :glob:
 
 parts/motivation
