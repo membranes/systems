@@ -20,7 +20,7 @@ import revitron_sphinx_theme
 '''
 Basic
 '''
-project = 'Systems'
+project = '<img src="../_static/icon.svg" alt="Systems">'
 copyright = '2024, greyhypotheses'
 author = 'greyhypotheses'
 release = '0.1'
