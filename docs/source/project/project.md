@@ -40,11 +40,13 @@ The underlying aim might be, e.g.,
 
 **What will the deployed product present to the optician?**  **Or** rather, **how will the model's output be used?**  Considering the example above, the client's opticians might expect: [^deployment]
 
-* The classification probability per class.
-* The definition of each class.
-* The classification; vis-à-vis the highest classification probability.
-* The preliminary treatment pathway of the classification, according to the rules of the optician's institution.
-* The retinal image.
+<ul>
+    <li class="disc">The classification probability per class.</li>
+    <li class="disc">The definition of each class.</li>
+    <li class="disc">The classification; vis-à-vis the highest classification probability.</li>
+    <li class="disc">The preliminary treatment pathway of the classification, according to the rules of the optician's institution.</li>
+    <li class="disc">The retinal image.</li>
+</ul>
 
 <br>
 <br>
