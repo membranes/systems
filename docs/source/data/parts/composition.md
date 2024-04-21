@@ -135,23 +135,20 @@ Please detail any errors, sources of noise, or redundancies.
 
 Are there recommended data splits?
 
-
 <br>
 <br>
-
 
 ## Confidentiality
 
 Does the data set contain data that might be considered confidential?  For example,
 
-<ul>
+<ul class="disc">
     <li class="disc">Is the data protected by legal privilege or by doctor–patient confidentiality?</li>
     <li class="disc">Does the data include the content of private/non-public communications of individuals.</li>
 </ul>
 
 <br>
 <br>
-
 
 ## Identification of Individuals
 
@@ -164,20 +161,23 @@ Is it possible to identify individuals directly or indirectly?
 
 Does the data set include sensitive data elements?  Describe.  Examples of sensitive data elements are 
 elements that directly/indirectly reveal:
-* Locations.
-* Financial details.
-* Health details.
-* Biometric profiles.
-* Genetic profiles.
-* Government identification codes of individuals.
-* Criminal history.
-* Institutionally and/or commercially sensitive data.
-* Race or ethnic origin.
-* Sexual orientations.
-* Religious beliefs.
-* Political opinions.
-* Trade union memberships.
-* And more.
+
+<ul class="disc">
+    <li class="disc">Locations.</li>
+    <li class="disc">Financial details.</li>
+    <li class="disc">Health details.</li>
+    <li class="disc">Biometric profiles.</li>
+    <li class="disc">Genetic profiles.</li>
+    <li class="disc">Government identification codes of individuals.</li>
+    <li class="disc">Criminal history.</li>
+    <li class="disc">Institutionally and/or commercially sensitive data.</li>
+    <li class="disc">Race or ethnic origin.</li>
+    <li class="disc">Sexual orientations.</li>
+    <li class="disc">Religious beliefs.</li>
+    <li class="disc">Political opinions.</li>
+    <li class="disc">Trade union memberships.</li>
+    <li class="disc">And more.</li>
+</ul>
 
 <br>
 <br>
@@ -186,10 +186,12 @@ elements that directly/indirectly reveal:
 
 Does ``… the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?'' [1, 2]
 
+<br>
+
 <details><summary><b>References</b></summary>
-<ol>
-<li><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
-<li><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
+<ol class="numeric">
+    <li class="numeric"><a href="https://dl.acm.org/doi/10.1145/3458723" target="_blank">Datasheets for Datasets</a>, Communications of the ACM, 2021, Volume 64, Issue 12, pages 86 – 92</li>
+    <li class="numeric"><a href="https://arxiv.org/abs/1803.09010v8" target="_blank">Datasheets for Datasets</a>, arXiv:1803.09010v8, 2021, updated datasheet appendix</li>
 </ol>
 </details>
 
