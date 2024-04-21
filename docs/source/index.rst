@@ -33,7 +33,7 @@ Projects & Machine Learning
    introduction/plausible
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: PROJECT DETAILS
    :hidden:
 
