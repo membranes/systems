@@ -9,8 +9,15 @@ li.disc {
     line-height: 1.6em
 }
 
+li {
+    margin-top:2px;
+    margin-bottom:2px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+
 ul {
-    margin-left: 35px;
+    margin-left: 10px;
 }
 
 .mermaid {
