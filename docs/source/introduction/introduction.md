@@ -1,6 +1,26 @@
 # Introduction
 
+
+## Background
+
+**These pages** complement an in-development online *project details hub*.  The hub's focus is business machine learning
+projects, and its aim is the simplification of requirements elicitation; it has sets of questions pertinent to machine
+learning dependent projects.  An external partner is developing the online hub, which will be a component of the Scottish
+Artificial Intelligence Register platform. [^business]
+
+In future, we hope the *project details hub* will reduce the likelihood that a project will fail; will aid
+successful deployments of machine learning solutions within
+
+* Applications that directly or indirectly serve the public.
+* Back-end operations or internal applications.
+* Policy teams, in terms of providing evidence/insights based on the automatic and continuous executions of simple and complex models.
+
+**These pages** are not as comprehensive as the hub.  The objective - share a few help notes with colleagues whilst we await the hub's first release.  However, because these pages might be a helpful reference point, we will continuously update its content.
+
 <br>
+<br>
+
+## Summary
 
 The aim of these pages is to ensure that each prospective client/collaborator carefully considers the time commitment, collaboration commitment, cost, range of expertise, project details, etc., that are required for a business machine learning project. 
 
@@ -40,4 +60,8 @@ i-playbook/" target="_blank">The AI Play Book: Mastering the Rare Art of Machine
 <br>
 <br>
 
+[^business]: The word _business_ indicates that the focus is not research.
 [^deployment]: An upcoming update will include more notes.
+
+<br>
+<br>
