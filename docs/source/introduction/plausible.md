@@ -17,6 +17,8 @@ flowchart LR
     classDef default fill:#333333,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
 ```
 
+<br>
+
 <figcaption>An illustration of considerations vis-à-vis a potential machine learning dependent project.  The project details 
 inform the feasibility assessment.</figcaption>
 
