@@ -1,5 +1,4 @@
 /* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
-
 li.disc {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -28,4 +27,11 @@ ul {
     max-width: 695px;
     max-height: 215px;
     margin-left: 60px;
+}
+
+
+/* Paragraphs */
+p {
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
 }
