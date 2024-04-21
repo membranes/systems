@@ -9,6 +9,10 @@ li.disc {
     line-height: 1.6em
 }
 
+ul.disc {
+    margin-left: 35px;
+}
+
 li {
     margin-top:2px;
     margin-bottom:2px;
