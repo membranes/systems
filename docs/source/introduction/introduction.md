@@ -2,27 +2,6 @@
 
 <br>
 
-```{mermaid}
-%%{ init: { 'flowchart': { 'curve': 'monotoneX'} } }%%
-flowchart LR    
-    id0([start]) --> id1{<span title="Does the potential project have a budget?">budget</span>} 
-    id1 -- yes --> id2{<span title="Is the budget, project timebox, and the collaboration commitment plausible?">budget,<br>time</span>}
-    id1 -- no --> id3([terminate])
-    id2 -- no --> id3
-    id2 -- yes --> id5(<span title="The project scope/design details">project<br>details</span>)
-    id5 --> id6{<span title="Is the potential project addressable via machine learning, technically feasible, and economically viable?">feasible?</span>}
-    id6 -- no --> id3
-    id6 -- yes --> id8(next <br> steps)
-    
-    classDef default fill:#333333,stroke:#333333,stroke-width:0px,color:#ffffff,font-size:11pt;
-```
-
-<figcaption>An illustration of considerations vis-à-vis a potential business machine learning project.  The project details inform the feasibility assessment.</figcaption>
-
-
-<br>
-<br>
-
 The aim of these pages is to ensure that each prospective client/collaborator carefully considers the time commitment, collaboration commitment, cost, range of expertise, project details, etc., that are required for a business machine learning project. 
 
 <br>
