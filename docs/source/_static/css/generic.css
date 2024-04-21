@@ -1,10 +1,10 @@
 /* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
 
 li.disc {
-    margin-top:2px;
-    margin-bottom:2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     padding-top: 2px;
-    padding-bottom:2px;
+    padding-bottom: 2px;
     list-style: disc;
     line-height: 1.6em
 }
@@ -14,10 +14,10 @@ ul.disc {
 }
 
 li {
-    margin-top:2px;
-    margin-bottom:2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     padding-top: 2px;
-    padding-bottom:2px;
+    padding-bottom: 2px;
 }
 
 ul {
@@ -25,6 +25,7 @@ ul {
 }
 
 .mermaid {
-    max-width: 635px;
-    margin-left:65px;
+    max-width: 695px;
+    max-height: 215px;
+    margin-left: 60px;
 }
