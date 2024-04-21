@@ -30,9 +30,10 @@ These are the standard technical metrics.  **Referring back to the retinal image
 This is for auditing purposes.  A model's model card should summarise the artefacts of the released, in-use,
 in-production, model.  A model card example:
 
-* [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
-* [Model Cards for Model Reporting: Prototypes](https://modelcards.withgoogle.com/about)
-
+<ul class="disc">
+    <li class="disc"><a href="https://arxiv.org/abs/1810.03993" target="_blank">Model Cards for Model Reporting</a></li>
+    <li class="disc"><a href="https://modelcards.withgoogle.com/about">Model Cards for Model Reporting: Prototypes</a></li>
+</ul>
 
 <br>
 <br>
