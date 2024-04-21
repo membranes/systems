@@ -26,12 +26,24 @@ Projects & Machine Learning
 
 .. toctree::
    :maxdepth: 2
-   :caption: Introduction:
+   :caption: INTRODUCTION
    :hidden:
 
    introduction/introduction
    introduction/plausible
 
+.. toctree::
+   :maxdepth: 2
+   :caption: PROJECT DETAILS
+   :hidden:
+
+   project/project
+   model/model
+   data/data
+   stakeholders/stakeholders
+   requirements/requirements
+   constraints/constraints
+   risks/risks
 
 .. raw:: html
   <br>
