@@ -2,8 +2,6 @@
 
 # Critical Preliminaries
 
-<br>
-
 ## Problem Statement
 
 What is the problem, and why is it important to solve this problem?
@@ -40,7 +38,7 @@ The underlying aim might be, e.g.,
 
 **What will the deployed product present to the optician?**  **Or** rather, **how will the model's output be used?**  Considering the example above, the client's opticians might expect: [^deployment]
 
-<ul>
+<ul class="disc">
     <li class="disc">The classification probability per class.</li>
     <li class="disc">The definition of each class.</li>
     <li class="disc">The classification; vis-à-vis the highest classification probability.</li>
