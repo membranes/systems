@@ -6,12 +6,14 @@
 
 What was the data acquisition mechanism?  Per data instance, was data acquisition via
 
-* A sensor.
-* An application programming interface.
-* interviews.
-* Questionnaires.
-* A mix of mechanisms.
-* etc.
+<ul class="disc">
+    <li class="disc">A sensor.</li>
+    <li class="disc">An application programming interface.</li>
+    <li class="disc">Interviews.</li>
+    <li class="disc">Questionnaires.</li>
+    <li class="disc">A mix of mechanisms.</li>
+    <li class="disc">etc.</li>
+</ul>
 
 <br>
 <br>
