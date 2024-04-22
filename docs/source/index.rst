@@ -20,8 +20,10 @@ Projects & Machine Learning
 .. container:: .buttons
 
    `Introduction <introduction/introduction.html>`_
-   `Source <https://github.com/premodelling/systems>`_
    :ref:`genindex`
+
+
+.. image:: https://img.shields.io/github/v/tag/premodelling/systems?label=Release&style=flat-square&labelColor=292b2e&color=292b2e
 
 
 .. toctree::
