@@ -7,8 +7,6 @@
 <br>
 :::
 
-<br>
-
 ## Model Performance Metrics
 
 These are the standard technical metrics.  **Referring back to the retinal images classification example**, we may define the performance metrics criteria as follows: [^metrics]
@@ -23,7 +21,6 @@ e., True Positive, False Negative, False Positive, True Negative, and <b>(b)</b>
     <dd>For each class, and by the same overarching threshold value, ensure that each criterion metric value is within its defined range; as outlined above.</dd>
 </dl>
 
-<br>
 <br>
 
 ## Model Card
