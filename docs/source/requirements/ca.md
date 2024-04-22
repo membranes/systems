@@ -1,7 +1,5 @@
 # Context & Architecture
 
-<br>
-
 Additionally, include data flow diagrams.
 
 <br>
