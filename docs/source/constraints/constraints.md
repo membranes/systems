@@ -2,8 +2,6 @@
 
 # Project Constraints
 
-<br>
-
 An inexhaustive set of constraints.
 
 <br>
