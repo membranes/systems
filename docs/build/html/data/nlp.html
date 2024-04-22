@@ -1,0 +1,308 @@
+
+	<!DOCTYPE html>
+<html class="writer-html5 " lang="en" >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>Natural Language Processing &mdash; &lt;img src=&#34;../_static/icon.svg&#34; alt=&#34;Systems&#34;&gt; 0.1 documentation</title>
+	
+	<link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+	<link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+	<link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+	<link rel="stylesheet" href="../_static/css/generic.css" type="text/css" />
+	<link rel="stylesheet" href="../_static/css/figures.css" type="text/css" />
+	<link rel="stylesheet" href="../https://fonts.googleapis.com/css?family=Vollkorn" type="text/css" />
+	<link rel="stylesheet" href="../https://fonts.googleapis.com/css?family=Tangerine" type="text/css" />
+
+	
+	
+	
+	
+		<link rel="canonical" href="https://premodelling.github.io/systems/data/nlp.html"/>
+	
+
+	
+	<!--[if lt IE 9]>
+		<script src="../_static/js/html5shiv.min.js"></script>
+	<![endif]-->
+	
+		
+			<script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+				<script src="../_static/documentation_options.js?v=2709fde1"></script>
+				<script src="../_static/doctools.js?v=9a2dae69"></script>
+				<script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+				<script src="../_static/design-tabs.js?v=36754332"></script>
+				<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+				<script src="https://code.highcharts.com/stock/highstock.js"></script>
+				<script src="https://code.highcharts.com/stock/modules/data.js"></script>
+				<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+				<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+				<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+				<script src="https://code.highcharts.com/highcharts.js"></script>
+				<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+		
+		<script type="text/javascript" src="../_static/js/theme.js"></script>
+
+		
+		<link rel="index" title="Index" href="../genindex.html" />
+		<link rel="search" title="Search" href="../search.html" />
+		<link rel="next" title="Stakeholders" href="../stakeholders/stakeholders.html" />
+		<link rel="prev" title="Maintenance" href="maintenance.html" /> 
+</head>
+<body class="wy-body-for-nav">
+
+
+	 
+	<div class="wy-grid-for-nav">
+		
+		<nav data-toggle="wy-nav-shift" class="wy-nav-side">
+			<div class="wy-side-scroll">
+				<div class="wy-side-nav-search">
+					
+						<div class="brand">
+							<a href="../index.html">
+							
+								<img src="../_static/icon.svg" alt="Systems">
+							
+							</a>
+						</div>
+						
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+					
+				</div>
+				
+				<div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+					
+						
+						
+							
+						
+						
+							<p class="caption" role="heading"><span class="caption-text">INTRODUCTION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../introduction/plausible.html">Project Plausibility</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">PROJECT DETAILS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../project/project.html">Critical Preliminaries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../model/model.html">Model</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="data.html">Data &amp; Datasheets</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="composition.html">Composition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collection.html">Data Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="controls.html">Controls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maintenance.html">Maintenance</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Natural Language Processing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#background">Background</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#data-statement-queries-in-brief">Data Statement Queries in Brief</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#curation-rationale">Curation Rationale</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#language-variety">Language Variety</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#speaker-demographic">Speaker Demographic</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#annotator-demographic">Annotator Demographic</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#speech-situation">Speech Situation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#text-characteristics">Text Characteristics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#recording-quality">Recording Quality</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#provenance-appendix">Provenance Appendix</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#other-pertinent-details">Other Pertinent Details</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../stakeholders/stakeholders.html">Stakeholders</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements/requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../constraints/constraints.html">Project Constraints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../risks/risks.html">Risks</a></li>
+</ul>
+
+						
+					
+				</div>
+				
+			</div>
+		</nav>
+
+		<section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+			
+			<nav class="wy-nav-top" aria-label="top navigation">
+			
+				<i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+				<a href="../index.html">
+					
+						<img src="../_static/_static/logo.svg" class="logo" alt="Logo"/>
+					
+				</a>
+			
+			</nav>
+
+
+			<div class="wy-nav-content">
+				
+				<div class="rst-content">
+				
+					<div role="navigation" aria-label="breadcrumbs navigation">
+
+	<ul class="wy-breadcrumbs">
+		
+			
+				<li><a href="../index.html"><img src="../_static/icon.svg" alt="Systems"></a> ⁄&nbsp;</li>
+				
+					<li><a href="data.html">Data &amp; Datasheets</a> ⁄&nbsp;</li>
+				
+				<li><a href="">Natural Language Processing</a></li>
+			
+		
+		
+			<li class="wy-breadcrumbs-aside">
+			
+				<a href="https://www.github.com/premodelling/systems" class="fa fa-github-alt"></a>
+			
+			</li>
+		
+	</ul>
+
+</div>
+					<div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+					 <div itemprop="articleBody">
+						
+  <br>
+<section class="tex2jax_ignore mathjax_ignore" id="natural-language-processing">
+<h1>Natural Language Processing<a class="headerlink" href="#natural-language-processing" title="Link to this heading">¶</a></h1>
+<section id="background">
+<h2>Background<a class="headerlink" href="#background" title="Link to this heading">¶</a></h2>
+<p>This section only applies to data sets for natural language processing (NLP).  The focus being the <em>proposed data
+statements</em> of <a href="https://direct.mit.edu/tacl/article/doi/10.162/tacl_a_00041/43452/Data-Statements-for-Natural-Language-Processing" target="_blank">Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science</a> by E Bender &amp; B Friedman.</p>
+<p>Please study the description of each statement within <a class="reference external" href="https://direct.mit.edu/tacl/article/doi/10.162/tacl_a_00041/43452/Data-Statements-for-Natural-Language-Processing">Section 5</a>.  Subsequently, and per data set, record the
+applicable data statements.   Brief excerpts below.</p>
+<br>
+</section>
+<section id="data-statement-queries-in-brief">
+<h2>Data Statement Queries in Brief<a class="headerlink" href="#data-statement-queries-in-brief" title="Link to this heading">¶</a></h2>
+<section id="curation-rationale">
+<h3>Curation Rationale<a class="headerlink" href="#curation-rationale" title="Link to this heading">¶</a></h3>
+<p>Why was the data collected?  In brief, which “… texts were included and what were the goals in selecting
+texts, both in the original collection and in any further sub-selection?”  Impacts inference.</p>
+<br>
+</section>
+<section id="language-variety">
+<h3>Language Variety<a class="headerlink" href="#language-variety" title="Link to this heading">¶</a></h3>
+<p>This is important because languages “… differ from each other in structural ways that can interact with NLP algorithms”.<br />
+Additionally, and within a language, “… regional or social dialects can also show great variation”.</p>
+<br>
+</section>
+<section id="speaker-demographic">
+<h3>Speaker Demographic<a class="headerlink" href="#speaker-demographic" title="Link to this heading">¶</a></h3>
+<p>Important in cases wherein “… variation (in pronunciation, prosody, word choice, and grammar) correlates with <em>speaker-demographic</em> characteristics”.</p>
+<br>
+</section>
+<section id="annotator-demographic">
+<h3>Annotator Demographic<a class="headerlink" href="#annotator-demographic" title="Link to this heading">¶</a></h3>
+<p>In brief, what are the “… demographic characteristics of the annotators and [the] annotation guideline developers?”  These are critical questions because they give an insight into “… their experience with language and thus their perception of what they are annotating”.</p>
+<br>
+</section>
+<section id="speech-situation">
+<h3>Speech Situation<a class="headerlink" href="#speech-situation" title="Link to this heading">¶</a></h3>
+<p>Mainly because “… characteristics of the speech situation can affect linguistic structure and patterns …”.</p>
+<br>
+</section>
+<section id="text-characteristics">
+<h3>Text Characteristics<a class="headerlink" href="#text-characteristics" title="Link to this heading">¶</a></h3>
+<p>Mainly because “… genre and topic influence the vocabulary and structural characteristics of texts”.</p>
+<br>
+</section>
+<section id="recording-quality">
+<h3>Recording Quality<a class="headerlink" href="#recording-quality" title="Link to this heading">¶</a></h3>
+<p>If applicable, outline recording quality.</p>
+<br>
+</section>
+<section id="provenance-appendix">
+<h3>Provenance Appendix<a class="headerlink" href="#provenance-appendix" title="Link to this heading">¶</a></h3>
+<p>If the data set was derived from an existing data set “… the data statements for the source datasets should be included as an appendix”</p>
+<br>
+</section>
+<section id="other-pertinent-details">
+<h3>Other Pertinent Details<a class="headerlink" href="#other-pertinent-details" title="Link to this heading">¶</a></h3>
+<p>Record pertinent details that the previous statements do not request.</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</section>
+</section>
+</section>
+
+
+					 </div>
+					 
+					</div>
+					<footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../stakeholders/stakeholders.html" class="btn btn-neutral float-right" title="Stakeholders" accesskey="n" rel="next">Next &nbsp;<b>⟶</b></a>
+      
+      
+        <a href="maintenance.html" class="btn btn-neutral float-left" title="Maintenance" accesskey="p" rel="prev"><b>⟵</b>&nbsp; Previous</a>
+      
+    </div>
+  
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2024, greyhypotheses
+	  <br>
+      
+      
+      
+      Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+      
+      <a href="https://github.com/revitron/revitron-sphinx-theme">theme</a>
+      
+      provided by <a href="https://github.com/revitron">Revitron</a>.
+
+    </p>
+  </div> 
+
+</footer>
+
+				</div>
+			</div>
+
+		</section>
+
+	</div>
+	
+
+	<script type="text/javascript">
+			jQuery(function () {
+					SphinxRtdTheme.Navigation.enable(true);
+			});
+	</script>
+
+	
+	
+		
+	 
+
+ 
+</body>	
+</html>
