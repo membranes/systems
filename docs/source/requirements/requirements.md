@@ -8,8 +8,8 @@
 ```{toctree}
 :glob:
 
-functional/*
-additional/additional
+functional
+additional
 ```
 
 <br>
