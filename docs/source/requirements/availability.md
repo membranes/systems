@@ -20,7 +20,7 @@ whereby
 * The _mean time to repair_ is a maintainability metric.
 
 
-```{image} ../../../../../assets/availability-metrics.png
+```{image} ../../../assets/availability-metrics.png
 :alt: Availability Metrics
 :width: 80%
 
