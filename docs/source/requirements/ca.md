@@ -18,7 +18,7 @@ The system context diagram illustrates how the service node of the system intera
 The architecture, which outlines integrations with other systems, modelling stages, data flows, monitoring node, 
 re-training node, etc.
 
-```{image} ../../../../assets/ml-lifecycle.png
+```{image} ../../../assets/ml-lifecycle.png
 :alt: Machine Learning Dependent Business Project
 :width: 80%
 
