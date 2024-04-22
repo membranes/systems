@@ -2,12 +2,12 @@
 
 # Business Metrics
 
-<br>
-
-:::{note}
+:::{admonition} In Progress
 :class: margin
-In progress
+<br>
 :::
+
+<br>
 
 A later version of this hub will have more details, and an example.  In brief, business performance metrics may focus on, e.g.,
 
