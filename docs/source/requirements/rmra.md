@@ -24,9 +24,9 @@ and the costs thereof.  The tasks herein will require the aid of a reliability e
 :caption: Content
 :glob:
 
-rmra/reliability
-rmra/mr
-rmra/availability
+reliability
+mr
+availability
 ```
 
 <br>
