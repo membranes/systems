@@ -2,8 +2,6 @@
 
 # People
 
-<br>
-
 ## Aim
 
 Identify and record all the project's stakeholders.
@@ -28,6 +26,7 @@ Examples include:
 
 The Open Group Architecture Framework (TOGAF) hosts a detailed discussion of [stakeholder management](https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap21.html).  The discussion includes a [sample stakeholder map for an imaginary project](https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap21.html#:~:text=21.3.1.1-,Sample%20Stakeholder%20Analysis,-A%20sample%20stakeholder).  It is a good guide to discerning a project's stakeholders and their import.
 
+<br>
 <br>
 
 <details><summary><b>References</b></summary>
