@@ -19,15 +19,14 @@ This chapter consists of a set of sections.  The sections, except the Natural La
 
 ```{toctree}
 :caption: Content
-:maxdepth: 3
 :glob:
 
-parts/motivation
-parts/composition
-parts/collection
-parts/controls
-parts/maintenance
-parts/nlp
+motivation
+composition
+collection
+controls
+maintenance
+nlp
 ```
 
 <br>
