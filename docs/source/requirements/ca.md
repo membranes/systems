@@ -26,8 +26,7 @@ re-training node, etc.
 <br>
 
 <figure>
-<figcaption><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture
--diagram.html" target="_blank">A platform agnostic example courtesy of Amazon Web Services; scroll down.</a>
+<figcaption><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/ml-lifecycle-architecture-diagram.html" target="_blank">A platform agnostic example courtesy of Amazon Web Services; scroll down.</a>
 </figcaption>
 </figure>
 
