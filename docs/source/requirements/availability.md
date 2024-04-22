@@ -40,11 +40,10 @@ whereby
 <br>
 
 <details><summary><b>References</b></summary>
-<ol class="numeric">
-<li class="numeric"><a href="https://sebokwiki.org/wiki/Availability_(glossary)" target="_blank">Availability</a></li>
-<li class="numeric"><a href="https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Understanding Availability</a></li></ol>
+    <ol class="numeric">
+    <li class="numeric"><a href="https://sebokwiki.org/wiki/Availability_(glossary)" target="_blank">Availability</a></li>
+    <li class="numeric"><a href="https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/understanding-availability.html" target="_blank">Understanding Availability</a></li></ol>
 </details>
-
 
 <br>
 <br>
