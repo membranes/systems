@@ -1,0 +1,9 @@
+/**
+ * Figure caption
+ */
+figcaption {
+    padding: 2px;
+    margin-left: 80px;
+    margin-right: 15px;
+    text-align: left;
+}
