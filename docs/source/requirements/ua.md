@@ -4,19 +4,17 @@
 
 <br>
 
-The focus herein are the requirements/constraints vis-à-vis
+The foci herein are the requirements/constraints vis-à-vis
 
-* Interface: The constraints herein depend on (a) the audience, e.g., children, young adults, executives, (b) the organisation's presentation or branding norms, (c) and more. [Volere](https://homepages.laas.fr/kader/Robertson.pdf)
+<ul class="disc">
+    <li class="disc">Interface: The constraints herein depend on <b>(a)</b> the audience, e.g., children, young adults, executives, <b>(b)</b> the organisation's presentation or branding norms, <b>(c)</b> and more. (<a href="https://homepages.laas.fr/kader/Robertson.pdf">Volere</a>)</li>
+    <li class="disc">Style: The audience, e.g., children, young adults, executives, dictates the constraints herein. (<a href="https://homepages.laas.fr/kader/Robertson.pdf">Volere</a>)</li>
+    <li class="disc">Ease of use: Each ease of use constraint must have fit criteria for acceptance testing. (<a href="https://homepages.laas.fr/kader/Robertson.pdf">Volere</a>)</li>
+    <li class="disc">Learnability: Again, each constraint must have fit criteria for acceptance testing. (<a href="https://homepages.laas.fr/kader/Robertson.pdf">Volere</a>)</li>
+    <li class="disc">Accessibility; For more details study the <a href="https://wcag.com/developers/">Web Content Accessibility Guidelines (WCAG)</a></li>
+</ul>
 
-* Style: The audience, e.g., children, young adults, executives, dictates the constraints herein. [Volere](https://homepages.laas.fr/kader/Robertson.pdf)
-
-* Ease of use: Each ease of use constraint must have fit criteria for acceptance testing. [Volere](https://homepages.laas.fr/kader/Robertson.pdf)
-
-* Learnability: Again, each constraint must have fit criteria for acceptance testing. [Volere](https://homepages.laas.fr/kader/Robertson.pdf)
-
-* Accessibility; For more details study the <a href="https://wcag.com/developers/">Web Content Accessibility Guidelines (WCAG)</a>
-
-The business team must prepare an unambiguous outline per requirement/constraint.
+The client team should have an unambiguous outline per requirement/constraint.
 
 <br>
 <br>
