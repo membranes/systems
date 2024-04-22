@@ -4,7 +4,8 @@
 
 <br>
 
-Do "… any export controls or other regulatory restrictions apply to the dataset or to individual instances?" [1, 2]
+Do "… any export controls or other regulatory restrictions apply to the dataset or to individual instances?" [1, 2] &nbsp; 
+Please, study **Section 3.6 of** [2] for more details.
 
 <br>
 
