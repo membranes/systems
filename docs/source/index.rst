@@ -12,9 +12,6 @@ Projects & Machine Learning
 .. raw:: html
 
    <br>
-   <br>
-   <br>
-   <br>
 
 
 .. container:: .buttons
