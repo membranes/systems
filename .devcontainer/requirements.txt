@@ -1,12 +1,12 @@
-Sphinx>=7.2.1
-sphinx-book-theme
-sphinx-rtd-theme
-pydata-sphinx-theme
-sphinx-design
-furo
+Sphinx
+sphinx-book-theme>=1.1.3
+sphinx-rtd-theme>=2.0.0
+pydata-sphinx-theme>=0.15.4
+sphinx_design>=0.6.1
+furo>=2024.8.6
 revitron-sphinx-theme @ https://github.com/thirdreading/hub/raw/master/software/python/revitron-sphinx-theme-master.zip
-myst-parser
-sphinx-issues
+myst-parser>=4.0.0
+sphinx-issues>=4.1.0
 sphinx-copybutton
 sphinx-tippy
 sphinx-togglebutton
