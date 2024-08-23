@@ -76,22 +76,54 @@ napoleon_use_rtype = True
 napoleon_preprocess_types = False
 
 
-
-
-
-
-
-
-
+'''
+Templates
+'''
 templates_path = ['_templates']
+
+
+'''
+Patterns
+'''
 exclude_patterns = []
 
 
+'''
+Options for HTML output
+https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+'''
+html_theme = 'revitron_sphinx_theme'
 
-html_theme = 'alabaster'
+html_theme_options = {
+    'navigation_depth': 5,
+    'github_url': 'https://github.com/membranes/systems'
+}
+
+html_logo = '_static/logo.svg'
+
+html_title = 'Science'
+
+html_favicon = '_static/favicon.ico'
+
+html_context = {
+    'landing_page': {
+        'menu': [
+            {'title': 'The Artificial Intelligence Unit',
+             'url': 'https://github.com/theartificialintelligenceunit'},
+            {'title': 'Referee',
+             'url': 'https://github.com/greyhypotheses'}
+        ]
+    }
+}
+
+html_sidebars = {}
+
+
+
+
+
+
 html_static_path = ['_static']
 
 # -- Options for intersphinx extension ---------------------------------------
