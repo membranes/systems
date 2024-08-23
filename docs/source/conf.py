@@ -119,16 +119,13 @@ html_context = {
 
 html_sidebars = {}
 
+html_static_path: list[str] = ['_static']
 
 
-
-
-
-html_static_path = ['_static']
-
-# -- Options for intersphinx extension ---------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#configuration
-
+'''
+Options for intersphinx extension
+https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#configuration
+'''
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
 }
