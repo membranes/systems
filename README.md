@@ -72,6 +72,7 @@ Alternatively, a local virtual environment can be built via **environment.yml**;
 * [`Revitron` Theme](https://github.com/revitron/revitron-sphinx-theme)
 * [Requirements File Format](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 * [RST Footnotes](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#footnotes)
+* [favicon.io](https://favicon.io)
 
 <br>
 <br>
