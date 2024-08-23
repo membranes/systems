@@ -121,6 +121,10 @@ html_sidebars = {}
 
 html_static_path: list[str] = ['_static']
 
+html_css_files = []
+
+html_js_files = []
+
 
 '''
 Options for intersphinx extension
