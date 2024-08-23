@@ -1,13 +1,22 @@
 Sphinx>=7.2.1
 sphinx-book-theme
 sphinx-rtd-theme
+pydata-sphinx-theme
 sphinx-design
 furo
+revitron-sphinx-theme @ https://github.com/thirdreading/hub/raw/master/software/python/revitron-sphinx-theme-master.zip
 myst-parser
+sphinx-issues
+sphinx-copybutton
 sphinx-tippy
 sphinx-togglebutton
 sphinxcontrib-mermaid
-revitron-sphinx-theme @ https://github.com/thirdreading/hub/raw/master/software/python/revitron-sphinx-theme-master.zip
+sphinxcontrib-constdata
+sphinxcontrib-bibtex
+sphinxcontrib-jquery
+sphinxcontrib-httpdomain
+sphinxext-opengraph
+autodocsumm
 pytest>=7.4.1
 coverage>=7.3.1
 pytest-cov>=4.1.0
