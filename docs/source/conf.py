@@ -100,6 +100,12 @@ html_theme_options = {
     'github_url': 'https://github.com/membranes/systems'
 }
 
+html_static_path: list[str] = ['_static']
+
+html_css_files = ['css/generic.css']
+
+html_js_files = []
+
 html_logo = '_static/logo.svg'
 
 html_title = 'Science'
@@ -118,12 +124,6 @@ html_context = {
 }
 
 html_sidebars = {}
-
-html_static_path: list[str] = ['_static']
-
-html_css_files = []
-
-html_js_files = []
 
 
 '''
