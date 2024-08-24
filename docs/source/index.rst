@@ -1,17 +1,20 @@
-.. Systems documentation master file, created by
-   sphinx-quickstart on Fri Aug 23 22:09:32 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. image:: _static/logo.svg
 
-Systems documentation
-=====================
+Systems
+=======
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+.. container:: .large
 
+   Systems is a set of reference notes for machine learning dependent projects.
+
+.. container:: .buttons
+
+   `Docs <about/introduction.html>`_
+   `GitHub <https://github.com/membranes/systems>`_
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
+   :hidden:
 
+   about/about
