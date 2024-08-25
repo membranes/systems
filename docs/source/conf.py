@@ -124,7 +124,10 @@ html_context = {
             {'title': 'Referee',
              'url': 'https://github.com/greyhypotheses'}
         ]
-    }
+    },
+    'display_github': True,
+    'github_repo': 'membranes/systems',
+    'conf_py_path': 'develop/docs/source/'
 }
 
 html_sidebars = {}
