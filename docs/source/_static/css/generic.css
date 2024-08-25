@@ -7,6 +7,27 @@
 	content: url('../16x16.svg');
 }
 
+.rst-content h1 {
+	margin-top: 4.0rem;
+}
+
+.rst-content hr {
+	margin-top: 1.5rem;
+}
+
+.wy-breadcrumbs li {
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+.wy-side-nav-search {
+	padding: 2.45rem 2.5rem 0 2.5rem;
+}
+
+.wy-form {
+	margin-top: 25px;
+}
+
 /*
 .wy-breadcrumbs::before {
 	content: url('../16x16.svg');
