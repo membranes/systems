@@ -35,8 +35,8 @@ master_doc = 'index'
 '''
 Basic
 '''
-project = 'Systems'
-project_copyright = '{}, <a href="https://github.com/greyhypotheses">greyhypotheses</a>'.format(datetime.datetime.now().year)
+project = ''
+copyright = '{}, greyhypotheses'.format(datetime.datetime.now().year)
 author = 'greyhypotheses'
 
 
@@ -59,6 +59,7 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'sphinx.ext.napoleon',
     'sphinxext.opengraph',
+    'sphinxcontrib.jquery'
 ]
 
 add_module_names = False
@@ -91,31 +92,34 @@ exclude_patterns = []
 '''
 Options for HTML output
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 
+html_logo = '_static/logo.svg'
 '''
 html_theme = 'revitron_sphinx_theme'
 
 html_theme_options = {
-    'navigation_depth': 5,
-    'github_url': 'https://github.com/membranes/systems'
+    'navigation_depth': 4,
+    'github_url': 'https://github.com/membranes/systems',
+    'style_external_links': True,
+    'titles_only': False,
+    'logo_mobile': '_static/32x32.svg'
 }
 
 html_static_path: list[str] = ['_static']
 
-html_css_files = ['css/generic.css']
+html_css_files = ['css/generic.css', 'css/custom.css']
 
 html_js_files = []
 
-html_logo = '_static/logo.svg'
-
-html_title = 'Science'
+html_title = 'SYSTEMS & MACHINE LEARNING'
 
 html_favicon = '_static/favicon.ico'
 
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': 'The Artificial Intelligence Unit',
+            {'title': 'Artificial Intelligence Unit',
              'url': 'https://github.com/theartificialintelligenceunit'},
             {'title': 'Referee',
              'url': 'https://github.com/greyhypotheses'}
