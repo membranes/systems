@@ -59,7 +59,11 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'sphinx.ext.napoleon',
     'sphinxext.opengraph',
-    'sphinxcontrib.jquery'
+    'sphinxcontrib.jquery',
+    'myst_parser',
+    'sphinx.ext.duration',
+    'sphinx_design',
+    'sphinxcontrib.mermaid'
 ]
 
 add_module_names = False
