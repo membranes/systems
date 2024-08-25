@@ -74,6 +74,13 @@ Alternatively, a local virtual environment can be built via **environment.yml**;
 * [RST Footnotes](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#footnotes)
 * [favicon.io](https://favicon.io)
 
+* [revitron](https://github.com/revitron/revitron)
+* [revitron sphinx theme](https://github.com/revitron/revitron-sphinx-theme)
+* [read the docs sphinx theme](https://github.com/readthedocs/sphinx_rtd_theme)
+  * [source links](https://docs.readthedocs.io/en/stable/guides/edit-source-links-sphinx.html)
+  * [configuring](https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html)
+
+
 <br>
 <br>
 
