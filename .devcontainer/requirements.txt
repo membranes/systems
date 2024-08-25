@@ -1,15 +1,15 @@
 Sphinx
-sphinx-book-theme>=1.1.3
-sphinx-rtd-theme>=2.0.0
-pydata-sphinx-theme>=0.15.4
-sphinx_design>=0.6.1
-furo>=2024.8.6
-revitron-sphinx-theme @ https://github.com/thirdreading/hub/raw/master/software/python/revitron-sphinx-theme-master.zip
-myst-parser>=4.0.0
-sphinx-issues>=4.1.0
+sphinx-book-theme
+sphinx-rtd-theme
+pydata-sphinx-theme
+sphinx_design
+furo
+myst-parser
+revitron-sphinx-theme @ https://github.com/thirdreading/hub/raw/develop/software/python/revitron-sphinx-theme-future.zip
 sphinx-copybutton
-sphinx-tippy
 sphinx-togglebutton
+sphinx-issues
+sphinx-tippy
 sphinxcontrib-mermaid
 sphinxcontrib-constdata
 sphinxcontrib-bibtex
@@ -17,8 +17,6 @@ sphinxcontrib-jquery
 sphinxcontrib-httpdomain
 sphinxext-opengraph
 autodocsumm
-pytest>=7.4.1
-coverage>=7.3.1
-pytest-cov>=4.1.0
-pylint>=3.0.1
 flake8>=6.1.0
+pylint>=3.0.1
+pytest-cov>=4.1.0
