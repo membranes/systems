@@ -1,4 +1,39 @@
-/* Lists  https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
+
+.icon-home:before {
+	content: url('../32x32.svg');
+}
+
+.fa-home:before {
+	content: url('../16x16.svg');
+}
+
+.rst-content h1 {
+	margin-top: 4.0rem;
+}
+
+.rst-content hr {
+	margin-top: 1.5rem;
+}
+
+.wy-breadcrumbs li {
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+
+.wy-side-nav-search {
+	padding: 2.45rem 2.5rem 0 2.5rem;
+}
+
+.wy-form {
+	margin-top: 25px;
+}
+
+/*
+.wy-breadcrumbs::before {
+	content: url('../16x16.svg');
+}
+*/
+
 li.disc {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -44,6 +79,16 @@ ol.numeric {
 
 /* Paragraphs */
 p {
-    margin-bottom: 12.5px;
-    margin-top: 12.5px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+/**
+ * Figure caption
+ */
+figcaption {
+    padding: 2px;
+    margin-left: 80px;
+    margin-right: 15px;
+    text-align: left;
 }
