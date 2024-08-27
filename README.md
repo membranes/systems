@@ -69,6 +69,10 @@ Alternatively, a local virtual environment can be built via **environment.yml**;
 
 ### References
 
+* [GitHub Raw](https://githubraw.com)
+
+* [Google Hosted Libraries](https://developers.google.com/speed/libraries)
+
 * [`Revitron` Theme](https://github.com/revitron/revitron-sphinx-theme)
 * [Requirements File Format](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
 * [RST Footnotes](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#footnotes)
@@ -80,6 +84,11 @@ Alternatively, a local virtual environment can be built via **environment.yml**;
   * [source links](https://docs.readthedocs.io/en/stable/guides/edit-source-links-sphinx.html)
   * [configuring](https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html)
 
+
+* [Theming](https://www.sphinx-doc.org/en/master/usage/theming.html)
+* [Sphinx Extensions](https://www.sphinx-doc.org/en/master/usage/extensions/index.html)
+* [sphinx-contrib](https://github.com/orgs/sphinx-contrib/repositories?type=all)
+* [sphinx-quickstart](https://www.sphinx-doc.org/en/master/man/sphinx-quickstart.html)
 
 <br>
 <br>
