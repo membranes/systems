@@ -66,6 +66,24 @@ extensions = [
     'sphinxcontrib.mermaid'
 ]
 
+myst_enable_extensions = [
+    'amsmath',
+    'attrs_inline',
+    'colon_fence',
+    'deflist',
+    'dollarmath',
+    'fieldlist',
+    'html_admonition',
+    'html_image',
+    'replacements',
+    'smartquotes',
+    'strikethrough',
+    'substitution',
+    'tasklist',
+    'attrs_block',
+    'attrs_inline'
+]
+
 add_module_names = False
 
 napoleon_google_docstring = True
@@ -79,6 +97,13 @@ napoleon_use_ivar = False
 napoleon_use_param = True
 napoleon_use_rtype = True
 napoleon_preprocess_types = False
+
+
+'''
+Mathematics
+'''
+mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+myst_dmath_double_inline = True
 
 
 '''
@@ -98,7 +123,8 @@ Options for HTML output
 https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
 
-html_logo = '_static/logo.svg'
+    * html_logo = '_static/logo.svg'
+    
 '''
 html_theme = 'revitron_sphinx_theme'
 
