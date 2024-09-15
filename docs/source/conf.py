@@ -35,7 +35,7 @@ master_doc = 'index'
 '''
 Basic
 '''
-project = ''
+project = '&nbsp; <span style="vertical-align: super; padding-top: 0; padding-bottom: 20px">Systems</span>'
 copyright = '{}, greyhypotheses'.format(datetime.datetime.now().year)
 author = 'greyhypotheses'
 
@@ -130,7 +130,7 @@ html_theme = 'revitron_sphinx_theme'
 
 html_theme_options = {
     'navigation_depth': 4,
-    'github_url': 'https://github.com/membranes/systems',
+    'github_url': 'https://github.com/miscellane/systems',
     'style_external_links': True,
     'titles_only': False,
     'logo_mobile': '_static/32x32.svg'
@@ -149,14 +149,14 @@ html_favicon = '_static/favicon.ico'
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': 'Artificial Intelligence Unit',
-             'url': 'https://github.com/theartificialintelligenceunit'},
+            {'title': 'Systems',
+             'url': 'https://github.com/miscellane/systems'},
             {'title': 'Referee',
              'url': 'https://github.com/greyhypotheses'}
         ]
     },
     'display_github': True,
-    'github_repo': 'membranes/systems',
+    'github_repo': 'miscellane/systems',
     'conf_py_path': 'develop/docs/source/'
 }
 
