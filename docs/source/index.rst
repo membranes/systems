@@ -5,7 +5,7 @@ Systems
 
 .. container:: .large
 
-   Systems is a set of reference notes for machine learning dependent projects.
+   The landing page of **Systems**.
 
 .. container:: .buttons
 
