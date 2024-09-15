@@ -10,7 +10,7 @@ Systems
 .. container:: .buttons
 
    `Docs <about/introduction.html>`_
-   `GitHub <https://github.com/membranes/systems>`_
+   `GitHub <https://github.com/miscellane/systems>`_
 
 .. toctree::
    :maxdepth: 2
