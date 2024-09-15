@@ -15,9 +15,11 @@ mkdir docs && cd docs && sphinx-quickstart
 Final part alternative
 
 ```shell
-sphinx-quickstart --ext-autodoc --ext-intersphinx --ext-coverage --ext-mathjax --ext-viewcode --ext-githubpages --extensions=revitron_sphinx_theme --extensions=autodocsumm --extensions=sphinxcontrib.httpdomain --extensions=sphinx.ext.napoleon --extensions=sphinxext.opengraph
+sphinx-quickstart --ext-autodoc --ext-intersphinx --ext-coverage --ext-mathjax 
+  --ext-viewcode --ext-githubpages --extensions=revitron_sphinx_theme 
+    --extensions=autodocsumm --extensions=sphinxcontrib.httpdomain 
+      --extensions=sphinx.ext.napoleon --extensions=sphinxext.opengraph
 ```
-
 
 Build the <abbr title="HyperText Markup Language">HTML</abbr> pages via:
 
