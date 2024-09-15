@@ -35,7 +35,7 @@ master_doc = 'index'
 '''
 Basic
 '''
-project = ''
+project = '&nbsp; <span style="vertical-align: super; padding-top: 0; padding-bottom: 20px">Systems</span>'
 copyright = '{}, greyhypotheses'.format(datetime.datetime.now().year)
 author = 'greyhypotheses'
 
